@@ -1,0 +1,23 @@
+* {margin: 0; padding: 0;}
+.body{
+	background-color: white;
+	overflow: hidden;
+}
+header, footer, .body{margin: 10px;}
+header, footer, .body .helper{background-color: green;padding: 10px;}
+.content{
+	float: left;
+	width: 65%;
+}
+.sidebar:first-child > .helper, .content > .helper{margin-right: 10px;}
+.sidebar:first-child{
+	float: left;
+	width: 20%;
+}
+.sidebar:last-child{
+	float: left;
+	width: 15%;
+}
+footer{
+	clear: both;
+}
